@@ -1,65 +1,21 @@
-# SwapEase - A barter platform
+# Barter Web App
 
-Welcome to the SwapEase, a dynamic barter platform where users can exchange goods using a modern web application interface. This project aims to streamline the process of bartering items by providing a robust platform.
+Welcome to the Barter Web App! This platform allows users to exchange goods and services using a point-based system, making transactions easier and fostering a community of sharing. The app uses a simple, intuitive interface with modern web technologies to create a seamless user experience.
 
 ## Features
 
-1. **User Management**: Register, login, update profiles, and manage authentication.
-2. **Product Listings**: Users can create, update, delete, and browse products.
-3. **Product Transactions**: Users can initiate transactions with the capability to barter/sell products or both.
-4. **Wishlist System**: Users can add products to a personal wishlist for future reference.
-5. **Search and Filter**: Advanced search and filtering capabilities based on product categories, condition, and more.
-6. **Real-Time Notifications**: Notify users about changes to products they are interested in or own.
-7. **Real-Time Chats**: Users can communicate with each other
+- **User Authentication**: Users can create accounts, log in, and manage their profiles.
+- **Barter System**: Users can list their items or services for barter and search for others to exchange with.
+- **Points System**: Each user has a balance of points that they can earn or spend through bartering.
+- **Responsive Design**: The app is mobile-friendly and works across devices.
+- **Search and Filter**: Easily find items or services to barter based on categories and location.
+- **User Feedback**: Rate and review bartered items or services for transparency and trust.
 
-## Technology Stack
+## Technologies Used
 
-- **Backend**: Node.js, Express
-- **Database**: MongoDB with Mongoose ODM
-- **Frontend**: Next.js, Redux for state management
-- **Authentication**: JWT for secure authentication
-- **File Storage**: Cloudinary
-- **Validation**: JOI
-- **File Handling**: Multer
-- **API Testing**: Postman for API route testing
-- **Deployment**: Vercel
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-Things you need to install run the software:
-
-- Node.js
-- Git
-
-### Installing
-A step-by-step guide that tell you how to get a development environment running:
-
-- Clone the repository
-```
-git clone https://github.com/kushagarwal11ag/barter.git
-```
-
-- Install dependencies
-```
-npm install
-```
-
-- Set up environment variables: *Rename* .sample.env file to .env in the root directory
-
-- Run the application
-```
-npm run dev
-```
-
-- Open your browser and visit `http://localhost:3000` to view the live website.
-
-## Authors
-- Kushal Agarwal - [Github](https://github.com/kushagarwal11ag)
-- Drashti Tailor - [Github](https://github.com/drashtitailor)
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+- **Frontend**: React, Tailwind CSS, Shadcn/UI, Framer Motion, React Toastify
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+- **Hosting**: Heroku or AWS (depending on deployment configuration)
+- **Version Control**: Git, GitHub
